@@ -70,7 +70,7 @@ function Sidebar({ logout }) {
   const secondaryBtn = "bg-gray-100 text-gray-900";
 
   return (
-    <div className="flex flex-col h-screen w-64 bg-blue-900 text-white fixed left-0 top-0 bottom-0 border-r border-blue-800">
+    <div className="fixed top-0 left-0 h-screen w-64 bg-blue-900 text-white border-r border-blue-800 flex flex-col">
       {/* Header */}
       <div className="flex h-16 items-center gap-2 border-b border-sidebar-border px-4">
         <img src={logo} alt="HOME-ACCES" className="h-8 w-8 object-contain" />
