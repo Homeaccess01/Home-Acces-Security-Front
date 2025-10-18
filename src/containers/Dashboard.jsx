@@ -41,10 +41,25 @@ function Dashboard({ personsCount, towersCount, apartmentsCount }) {
                 {/* Header */}
                 <div className="flex items-center justify-between">
                     <div>
-                        <h1 className="text-3xl font-bold text-foreground">Dashboard</h1>
-                        <p className="text-muted-foreground">
-                            Panel de control de HOME-ACCES Security
-                        </p>
+<h1
+  className="text-3xl font-extrabold 
+             bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500 
+             bg-clip-text text-transparent text-outline"
+>
+  Panel de Control
+</h1>
+
+<p
+  className="text-lg font-semibold 
+             bg-gradient-to-r from-blue-800 to-blue-400 
+             bg-clip-text text-transparent text-outline"
+>
+  HOME-ACCES Security
+</p>
+
+
+
+
                     </div>
                 </div>
 

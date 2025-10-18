@@ -66,11 +66,11 @@ function Sidebar({ logout }) {
 
   const itemBtnBase =
     "w-full h-9 flex items-center justify-start gap-2 rounded-md px-3 text-sm";
-  const ghostBtn = "hover:bg-gray-100 text-gray-700 transition-colors";
+  const ghostBtn = "hover:bg-white-100 text-white-700 transition-colors";
   const secondaryBtn = "bg-gray-100 text-gray-900";
 
   return (
-    <div className="flex flex-col h-screen w-64 bg-sidebar border-r border-sidebar-border">
+    <div className="flex flex-col h-screen w-64 bg-blue-900 border-r border-blue-800 text-white">
       {/* Header */}
       <div className="flex h-16 items-center gap-2 border-b border-sidebar-border px-4">
         <img src={logo} alt="HOME-ACCES" className="h-8 w-8 object-contain" />
@@ -141,14 +141,14 @@ function Sidebar({ logout }) {
 
       {/* Footer */}
       <div className="border-t border-sidebar-border p-3">
-        <div className="h-px bg-gray-200 mb-3" />
+        <div className="h-px text-black-900 mb-5" />
         <div className="space-y-1">
           <button className={`w-full ${itemBtnBase} ${ghostBtn}`}>
             <Settings className="h-4 w-4 text-blue-500" />
             Configuración
           </button>
           <button
-            className={`w-full ${itemBtnBase} ${ghostBtn} text-red-600 hover:text-red-700`}
+            className={`w-full ${itemBtnBase} ${ghostBtn} text-white-600 hover:text-white-700`}
             onClick={handleLogout}
           >
             <LogOut className="h-4 w-4" />

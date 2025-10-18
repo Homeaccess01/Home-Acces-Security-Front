@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.login-gradient {
+  background: linear-gradient(135deg, #a0cbff, #a0cbff, #3b82f6);
+}
+
+.text-outline {
+ -webkit-text-stroke: 0,5px rgb(2, 0, 110);
+}
+
+
+
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

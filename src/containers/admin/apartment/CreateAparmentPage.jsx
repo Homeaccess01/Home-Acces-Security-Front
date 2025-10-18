@@ -56,16 +56,16 @@ function CreateApartmentPage({ createApartment, dispatch }) {
             </button>
           </Link>
           <div>
-            <h1 className="text-2xl font-bold text-foreground">Crear Departamento</h1>
+            <h1 className="text-2xl font-bold text-foreground">Crear Apartamento</h1>
             <p className="text-muted-foreground">
-              Completa los datos para registrar un nuevo departamento
+              Completa los datos para registrar un nuevo apartamento
             </p>
           </div>
         </div>
 
         <div className="rounded-lg bg-white/95 backdrop-blur-sm shadow">
           <div className="p-5 border-b">
-            <h2 className="text-lg font-semibold">Información del Departamento</h2>
+            <h2 className="text-lg font-semibold">Información del apartamento</h2>
             <p className="text-sm text-muted-foreground">
               Datos básicos, responsable y recursos
             </p>
